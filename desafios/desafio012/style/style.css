@@ -36,7 +36,7 @@ header {
 
 header > h1 {
     font-family: var(--fonte-titulo);
-    font-size: 7em;
+    font-size: 10vw;
 }
 
 header > h2 {
@@ -55,7 +55,7 @@ header > h2 > strong > a {
 
 main > article > p{
     font-family: var(--fonte-texto);
-    font-size: 2.8em;
+    font-size: 3.5vw;
     line-height: 2em;
     text-align: left;
     padding: 66px 0px 150px 30px;
@@ -87,7 +87,7 @@ main > article > p{
     background-color: var(--cor-texto-fundo);
     color: var(--cor-texto-foto);
     font-family: var(--fonte-texto);
-    font-size: 2.8em;
+    font-size: 3.5vw;
     line-height: 2em;
     text-align: left;
     margin: 66px 0px 150px 30px;
@@ -96,4 +96,21 @@ main > article > p{
     padding: 10px 0px 25px 0;
     position: absolute;
     transform: translate(0%, 3%);
+}
+
+footer {
+    text-align: center;
+    min-height: 50px;
+    background-color: black;
+    color: white;
+    font-size: 1.5vw;
+}
+
+footer > p > strong > a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
