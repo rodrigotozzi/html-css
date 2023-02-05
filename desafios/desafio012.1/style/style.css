@@ -1,0 +1,116 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'passion-one';
+    src: url('../fontes/PassionOne-Bold.ttf') format('truetype');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'sriracha';
+    src: url('../fontes/Sriracha-Regular.ttf') format('truetype');
+    font-weight: normal;
+}
+
+:root {
+    --fonte-titulo: 'passion-one', sans-serif;
+    --fonte-subtitulo: 'Verdana', sans-serif;
+    --fonte-texto: 'sriracha', sans-serif;
+    --cor-texto-foto: white; 
+    --cor-texto-fundo:  rgba(0, 0, 0, 0.491);
+}
+
+* {
+    margin: 0;
+    padding: 0 ;
+}
+
+header {
+    background-color: black;
+    color: white;
+    min-height: 200px;
+    margin: auto;
+    text-align: center;
+    padding-top: 60px;
+}
+
+header > h1 {
+    font-family: var(--fonte-titulo);
+    font-size: 10vw;
+}
+
+header > h2 {
+    font-family: var(--fonte-subtitulo);
+    font-size: 0.9em;
+    padding-top: 5px;
+    font-weight: normal;
+}
+
+header > h2 > strong > a {
+    font-family: var(--fonte-subtitulo);
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+main > article > p{
+    font-family: var(--fonte-texto);
+    font-size: 3.5vw;
+    line-height: 2em;
+    text-align: left;
+    padding: 66px 0px 150px 30px;
+
+}
+
+.container-joaninha {
+    background-image: url('../imagens/background001.jpg');
+    height: 800px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container-livro {
+    background-image: url('../imagens/background002.jpg');
+    height: 800px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 7px 5px 7px 0px #0000005c;
+}
+
+.conteudo > p {
+    background-color: var(--cor-texto-fundo);
+    color: var(--cor-texto-foto);
+    font-family: var(--fonte-texto);
+    font-size: 3.5vw;
+    line-height: 2em;
+    text-align: left;
+    margin: 66px 0px 150px 30px;
+    max-height: 600px;
+    max-width: 600px;
+    padding: 10px 0px 25px 0;
+    position: absolute;
+    transform: translate(0%, 3%);
+}
+
+footer {
+    text-align: center;
+    min-height: 50px;
+    background-color: black;
+    color: white;
+    font-size: 1.5vw;
+}
+
+footer > p > strong > a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
