@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas Responsivas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 500px;
+            position: relative;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+        }
+
+        thead, tfoot {
+            background-color: #383838;
+            color: white;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: #383838;
+        }
+
+        tbody > tr:nth-child(2n) {
+            background-color: lightgray;
+        }
+
+        td.num {
+            text-align: right;
+        }
+
+        div#container {
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabelas em telas pequenas</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, a. Nisi accusamus repellendus vel quia animi totam officiis, ea id aliquid sequi in, tempora, earum sint quam ad vitae perferendis?</p>
+    <div id="container">
+        <table>
+            <caption>Tabelas responsivas</caption>
+            <tr>
+                <th>Produto</th>
+                <th>Jan</th>
+                <th>Fev</th>
+                <th>Mar</th>
+                <th>Abr</th>
+                <th>Mai</th>
+                <th>Jun</th>
+                <th>Jul</th>
+                <th>Ago</th>
+                <th>Set</th>
+                <th>Out</th>
+                <th>Nov</th>
+                <th>Dez</th>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
