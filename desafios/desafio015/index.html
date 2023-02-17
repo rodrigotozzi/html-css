@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto Redes Sociais</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <style>
         body {
             background-image: url("imagens/fundo-madeira.jpg");
@@ -36,6 +37,7 @@
             left: 16.2%;
             right: 50%;
             transform: translate(0%, 0%);
+            margin: auto;
         }
         
     </style>
@@ -43,12 +45,14 @@
 <body>
     <head>
         <nav>
-            <a href="imagens/tela-home.jpg" target="tela">Home</a>
-            <a href="imagens/tela-youtube.png" target="tela">Youtube</a>
-            <a href="imagens/tela-github.jpg" target="tela">Github</a>
-            <a href="imagens/tela-instagram.jpg" target="tela">Instagram</a>
-            <a href="imagens/tela-twitter.jpg" target="tela">Twitter</a>
-            <a href="imagens/tela-facebook.jpg" target="tela">Facebook</a>
+            <ul id="menu">
+                <li><a href="pagina-extra/pag-home.html" target="tela">Home</a></li>
+                <li><a href="imagens/tela-youtube.png" target="tela">Youtube</a></li>
+                <li><a href="imagens/tela-github.jpg" target="tela">Github</a></li>
+                <li><a href="imagens/tela-instagram.jpg" target="tela">Instagram</a></li>
+                <li><a href="imagens/tela-twitter.jpg" target="tela">Twitter</a></li>
+                <li><a href="imagens/tela-facebook.jpg" target="tela">Facebook</a></li>
+            </ul>
         </nav>
     </head>
     <main>
@@ -56,7 +60,7 @@
             <div id="conteudo">
                 <img src="imagens/frame-iphone.png" alt="foto iphone">
                 <div id="frame">
-                    <iframe name="tela" src="imagens/tela-home.jpg"></iframe>
+                    <iframe name="tela" src="pagina-extra/pag-home.html"></iframe>
                 </div>
             </div>
         </div>
