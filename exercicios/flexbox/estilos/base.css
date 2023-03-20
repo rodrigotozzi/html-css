@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+body {
+    background-color: #000;
+    color: #FFF;
+    box-sizing: border-box;
+}
+
+.flex-container {
+    background-color: #2c3aaa;
+    height: 400px;
+}
+
+.flex-item {
+    background-color: #CCC;
+    border: 3px solid #555;
+    color: #000;
+    font-size: 30px;
+    width: 100px;
+    margin: 10px;
+}

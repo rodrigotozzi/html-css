@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+
+}
+
+
