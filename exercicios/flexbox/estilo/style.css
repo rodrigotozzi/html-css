@@ -2,9 +2,11 @@
 
 .flex-container {
     display: flex;
-    justify-content: space-around;
-    align-items: stretch;
-
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
-
+.flex-item {
+    flex-basis: 100px;
+}
